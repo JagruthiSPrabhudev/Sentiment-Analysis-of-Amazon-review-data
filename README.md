@@ -65,3 +65,4 @@ We formulate this by applying Bayes’ rule:
 #### Part 6.visualisation
 
 used plotpy for visualising the results and some analysis of the data.
+
