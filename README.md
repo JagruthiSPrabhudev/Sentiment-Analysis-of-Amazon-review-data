@@ -35,20 +35,25 @@ I have also implemented TfidfVectorizer​ in sklearn to compute tf-idf weighted
 
 Once we have numerical representations of the text data, we are ready to fit the feature vectors to supervised learning algorithms
 #### Part 4. Word2Vec
+Word2vec is a two-layer neural net that processes text. Its input is a text corpus and its output is a set of vectors: feature vectors for words in that corpus.
 #### Part 5. Machine Learning algorithm
 I have constructed the following models for evaluation :
+
+
 Multinomial Naïve bias
 Neural Networks
 Decision Tree
-#####Implementation :
+##### Implementation :
 Fit feature vectors to supervised learning algorithm using Multinomial Naïve bias, Neural Networks and Decision Tree in sklearn
 Load pre-trained model and predict the sentiment of the new data.
-####multinomial naïve bayes algorithm .
+
+#### multinomial naïve bayes algorithm .
 Naive Bayes is a simple and due to its simplicity, this algorithm might outperform more complex models when the data set isn’t large enough and the categories are kept simple.
 Given estimates of parameters calculated from the training documents, classification is performed on test documents by calculating the posterior probability of each class given the evidence of the test document, and selecting the class with the highest probability. 
 We formulate this by applying Bayes’ rule:
- P(cj |di; ˆθ) = P(cj |ˆθ)P(di|cj; ˆθj) P(di|ˆθ) . 
-#####Classification report 
+ P(cj |di; ˆθ) = P(cj |ˆθ)P(di|cj; ˆθj) P(di|ˆθ).
+ 
+##### Classification report 
 
 
      			      precision    recall  	Accuracy
