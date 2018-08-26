@@ -30,8 +30,8 @@ The dataset was separated into test and training data as follows: every 5th samp
 Text pre-processing is needed to convert raw reviews into cleaned review. Necessary steps include conversion to lowercase, removal of non-characters, removal of stop words, removal of html tags.
 
 The first main step involved in text classification is to find a word embedding to convert text into numerical representations. I have used frequency based embedding model for the same.
-I have implemented CountVectorizer​ in sklearn to compute occurrence counting of words
-I have also implemented TfidfVectorizer​ in sklearn to compute tf-idf weighted counting. 
+I have implemented CountVectorizer in sklearn to compute occurrence counting of words
+I have also implemented TfidfVectorizer in sklearn to compute tf-idf weighted counting. 
 
 Once we have numerical representations of the text data, we are ready to fit the feature vectors to supervised learning algorithms
 #### Part 4. Word2Vec
@@ -54,12 +54,14 @@ We formulate this by applying Bayes’ rule:
  P(cj |di; ˆθ) = P(cj |ˆθ)P(di|cj; ˆθj) P(di|ˆθ).
  
 ##### Classification report 
+														          precision  	  recall 	 	Accuracy
+		Naïve bayes            	 0.85   	   0.85    	 0.8483
 
+	Neural Network	        		 0.90     		0.90	  	  0.9002
 
-     			               precision    recall  	Accuracy
-Naïve bayes            	0.85   	   	 0.85     0.8483
+	Decision Tree	        		  0.75      	0.74  		  0.7424
+              
 
-Neural Network	         0.90     		 0.90	    0.9002
-
-Decision Tree	          0.75      	 0.74 	  0.7424
 #### Part 6.visualisation
+
+used plotpy for visualising the results and some analysis of the data.
