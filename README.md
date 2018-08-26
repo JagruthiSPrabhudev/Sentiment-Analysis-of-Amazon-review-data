@@ -56,10 +56,10 @@ We formulate this by applying Bayes’ rule:
 ##### Classification report 
 
 
-     			      precision    recall  	Accuracy
-Naïve bayes    	0.85   	   	 0.85     0.8483
+     			               precision    recall  	Accuracy
+Naïve bayes            	0.85   	   	 0.85     0.8483
 
-Neural Network	0.90     		 0.90	    0.9002
+Neural Network	         0.90     		 0.90	    0.9002
 
-Decision Tree	  0.75      	 0.74 	  0.7424
+Decision Tree	          0.75      	 0.74 	  0.7424
 #### Part 6.visualisation
